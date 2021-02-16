@@ -1,0 +1,25 @@
+.offer {
+  position: relative;
+
+  padding: 5px 0;
+  text-align: center;
+
+  background-color: #000000;
+}
+
+.offer__link {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.offer__close-button {
+  position: absolute;
+
+  top: 5px;
+  right: 5px;
+
+  color: #ffffff;
+}

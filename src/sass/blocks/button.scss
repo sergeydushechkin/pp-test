@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  padding: 10px 0;
+
+  font-family: "Century Gothic", "Arial", sans-serif;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #000000;
+
+  &--sale {
+    width: 221px;
+    height: 41px;
+
+    color: #000000;
+    background-color: #ffffff;
+  }
+}

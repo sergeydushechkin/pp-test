@@ -1,0 +1,10 @@
+@mixin indents_null {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin list_none {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

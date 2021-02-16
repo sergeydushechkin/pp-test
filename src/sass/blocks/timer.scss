@@ -1,0 +1,25 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  padding-left: 20px;
+}
+
+.timer__header {
+  margin-bottom: 3px;
+
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.timer__digit {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.timer__breaker {
+  font-size: 28px;
+  padding: 0 14px;
+}

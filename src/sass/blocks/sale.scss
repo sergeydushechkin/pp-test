@@ -1,0 +1,37 @@
+.sale {
+  padding-top: 121px;
+  padding-bottom: 45px;
+
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+}
+
+.sale__header {
+  margin: 0;
+  margin-bottom: 108px;
+  padding-left: 19px;
+
+  font-family: "Aktiv Grotesk", "Arial", sans-serif;
+  font-size: 128px;
+
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.sale__timer {
+  margin-bottom: 37px;
+}
+
+.sale__list {
+  @include list_none;
+
+  display: flex;
+  justify-content: center;
+
+  padding-left: 76px;
+}
+
+.sale__link {
+  margin-right: 60px;
+}

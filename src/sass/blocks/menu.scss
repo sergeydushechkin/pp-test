@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 23px 0;
+}
+
+.menu__left {
+  display: flex;
+  width: 570px;
+
+  font-size: 12px;
+
+  padding-left: 46px;
+}
+
+.menu__center {
+  width: 650px;
+}
+
+.menu__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: 570px;
+}
+
+.menu__logo {
+  margin-bottom: 15px;
+}
+
+.menu__services {
+  margin: 0;
+  margin-bottom: 27px;
+}

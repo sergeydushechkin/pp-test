@@ -1,0 +1,46 @@
+.utils {
+  display: flex;
+
+  @include list_none;
+}
+
+.utils__item {
+  margin-right: 19px;
+}
+
+.utils__link {
+  display: inline-block;
+
+  color: #000000;
+  text-decoration: none;
+
+  // padding: 0 10px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+
+    width: 24px;
+    height: 24px;
+
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  &--favorites::before {
+    background-image: url("./img/icon-star.png");
+  }
+
+  &--phone::before {
+    background-image: url("./img/icon-phone.png");
+  }
+
+  &--mail::before {
+    background-image: url("./img/icon-letter.png");
+  }
+
+  &--cart::before {
+    background-image: url("./img/icon-packet.png");
+  }
+}

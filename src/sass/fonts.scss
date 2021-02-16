@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: local("Aktiv Grotesk"),
+    url("../fonts/AktivGrotesk.woff2") format("woff2"),
+    url("../fonts/AktivGrotesk.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: local("Century Gothic"),
+    local("CenturyGothic"),
+    url("../fonts/CenturyGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: local("Century Gothic Bold"),
+    url("../fonts/CenturyGothic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*font-family: "Aktiv Grotesk", "Arial", sans-serif;*/
+/*font-family: "Century Gothic", "Arial", sans-serif;*/
