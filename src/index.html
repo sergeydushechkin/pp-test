@@ -4,75 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preload" href="fonts/ptsans.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/ptsansbold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGrotesk.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGrotesk.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/CenturyGothic.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/CenturyGothic-Bold.woff" as="font" crossorigin="anonymous">
     <title>Philipp Plein</title>
 </head>
 <body>
   <div class="container">
 
-    <header class="main-header">
-      <div class="main-header__promo promo">
-        Free shipping on all orders
+    <header class="site-header">
+      <div class="site-header__offer offer">
+        <a class="offer__link" href="#">Free shipping on all orders</a>
+        <div class="offer__close-button" tabindex="0">&#10005;</div>
       </div>
-      <div class="main-header__menu menu">
-        <ul class="menu__properties properties">
-          <li class="properties__item">
-            <a class="properties__delivery" href="#">Ship to <span>United Kingdom</span></a>
-          </li>
-          <li class="properties__item">
-            <a class="properties__language" href="#">English</a>
-          </li>
-        </ul>
-        <ul class="menu__services services">
-          <li class="services__item">
-            <a class="services__link services__link--find" href="#">Find</a>
-          </li>
-          <li class="services__item">
-            <a class="services__link services__link--signin" href="#">Sign in</a>
-          </li>
-        </ul>
-        <ul class="menu__utils utils">
-          <li class="utils__item">
-            <a class="utils__link utils__favorites" href="#">Favorites</a>
-          </li>
-          <li class="utils__item">
-            <a class="utils__link utils__link--phone" href="#">Phone call</a>
-          </li>
-          <li class="utils__item">
-            <a class="utils__link utils__link--mail" href="#">Mail</a>
-          </li>
-          <li class="utils__item">
-            <a class="utils__link utils__link--cart" href="#">Cart<span class="utils__cart-count">0</span></a>
-          </li>
-        </ul>
-        <nav class="menu__navigation navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Sale</a>
+      <div class="site-header__menu menu">
+        <div class="menu__left">
+          <div class="menu__logo-small logo-small">
+            <img class="logo-small__image" src="/img/logo_small.png" alt="Philipp Plein small logo" width="105">
+          </div>
+          <ul class="menu__properties properties">
+            <li class="properties__item">
+              <a class="properties__link properties__link--ship-to" href="#">Ship to <span>United Kingdom</span></a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Fragnance</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Women</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Men</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Sport</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Junior</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">World</a>
+            <li class="properties__item">
+              <a class="properties__link" href="#">English</a>
             </li>
           </ul>
-        </nav>
-        <div class="menu__logo logo">
-          <img class="logo__image" src="/img/" alt="Philipp Plein logo">
+        </div>
+        <div class="menu__center">
+          <div class="menu__logo logo">
+            <img class="logo__image" src="/img/logo_full.png" alt="Philipp Plein logo" width="612">
+          </div>
+          <nav class="menu__navigation navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Sale</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Fragnance</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Women</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Men</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Sport</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Junior</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">World</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__right">
+          <ul class="menu__services services">
+            <li class="services__item">
+              <a class="services__link services__link--find" href="#">Find</a>
+            </li>
+            <li class="services__item">
+              <a class="services__link services__link--signin" href="#">Sign in</a>
+            </li>
+          </ul>
+          <ul class="menu__utils utils">
+            <li class="utils__item">
+              <a class="utils__link utils__link--favorites" href="#" aria-label=""><span class="visually-hidden">Favorites</span></a>
+            </li>
+            <li class="utils__item">
+              <a class="utils__link utils__link--phone" href="#"><span class="visually-hidden">Phone call</span></a>
+            </li>
+            <li class="utils__item">
+              <a class="utils__link utils__link--mail" href="#"><span class="visually-hidden">Mail</span></a>
+            </li>
+            <li class="utils__item">
+              <a class="utils__link utils__link--cart" href="#"><span class="visually-hidden">Cart</span><span class="utils__cart-count">(0)</span></a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -82,27 +94,34 @@
 
       <section class="site-main__sale sale">
         <h2 class="sale__header">Sale</h2>
-        <table class="sale__timer timer">
-          <tr class="timer__row">
-            <th class="timer__header">Days</th>
-            <th class="timer__header">Hours</th>
-            <th class="timer__header">Minutes</th>
-            <th class="timer__header">Seconds</th>
-          </tr>
-          <tr class="timer__row">
-            <td class="timer__digit timer__digit--days">06</td>
-            <td class="timer__digit timer__digit--hours">14</td>
-            <td class="timer__digit timer__digit--minutes">53</td>
-            <td class="timer__digit timer__digit--seconds">08</td>
-          </tr>
-        </table>
+        <div class="sale__timer timer">
+          <div class="timer__segment">
+            <div class="timer__header">Days</div>
+            <div class="timer__digit timer__digit--days">06</div>
+          </div>
+          <span class="timer__breaker">:</span>
+          <div class="timer__segment">
+            <div class="timer__header">Hours</div>
+            <div class="timer__digit timer__digit--hours">14</div>
+          </div>
+          <span class="timer__breaker">:</span>
+          <div class="timer__segment">
+            <div class="timer__header">Minutes</div>
+            <div class="timer__digit timer__digit--minutes">53</div>
+          </div>
+          <span class="timer__breaker">:</span>
+          <div class="timer__segment">
+            <div class="timer__header">Seconds</div>
+            <div class="timer__digit timer__digit--seconds">08</div>
+          </div>
+        </div>
         <nav class="sale__menu">
-          <ul class="sale__menu-list">
-            <li class="sale__menu-item">
-              <a class="sale__menu-link" href="#">Men</a>
+          <ul class="sale__list">
+            <li class="sale__item">
+              <a class="sale__link button button--sale" href="#">Men</a>
             </li>
-            <li class="sale__menu-item">
-              <a class="sale__menu-link" href="#">Women</a>
+            <li class="sale__item">
+              <a class="sale__link button button--sale" href="#">Women</a>
             </li>
           </ul>
         </nav>
@@ -113,7 +132,7 @@
 
         <article class="teddy-bear__capsule promo">
           <div class="promo__image-container">
-            <img class="promo__image" src="/img/" alt="Uomo Donna">
+            <img class="promo__image" src="./img/UOMO_DONNA.jpg" alt="Uomo Donna" width="1920">
           </div>
           <h3 class="promo__header">Teddy Bear&#8482; capsule</h3>
           <p class="promo__text">Teddy bears, Monograms and Shiny Crystals are the main focus for this New Capsule Collection for him and her.</p>
@@ -316,7 +335,7 @@
 
       <div class="footer__subscribe subscribe">
         <h2 class="subscribe__header">Sign Up to Shop first</h2>
-        <form class="subscribe__form" method="GET" action=".">
+        <form class="subscribe__form" method="POST" action=".">
           <p class="subscribe__text">
             <label class="subscribe__label" for="id-email">Sign up for exclusive access to our Promotions plus the Latest Arrivals.</label>
           </p>
