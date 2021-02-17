@@ -21,7 +21,7 @@
       <div class="site-header__menu menu">
         <div class="menu__left">
           <div class="menu__logo-small logo-small">
-            <img class="logo-small__image" src="/img/logo_small.png" alt="Philipp Plein small logo" width="105">
+            <img class="logo-small__image" src="img/logo_small.png" alt="Philipp Plein small logo" width="105">
           </div>
           <ul class="menu__properties properties">
             <li class="properties__item">
@@ -34,7 +34,7 @@
         </div>
         <div class="menu__center">
           <div class="menu__logo logo">
-            <img class="logo__image" src="/img/logo_full.png" alt="Philipp Plein logo" width="612">
+            <img class="logo__image" src="img/logo_full.png" alt="Philipp Plein logo" width="612">
           </div>
           <nav class="menu__navigation navigation">
             <ul class="navigation__list">
@@ -132,18 +132,20 @@
 
         <article class="teddy-bear__capsule promo">
           <div class="promo__image-container">
-            <img class="promo__image" src="./img/UOMO_DONNA.jpg" alt="Uomo Donna" width="1920">
+            <img class="promo__image" src="img/UOMO_DONNA.jpg" alt="Uomo Donna" width="1920" height="1080">
           </div>
-          <h3 class="promo__header">Teddy Bear&#8482; capsule</h3>
-          <p class="promo__text">Teddy bears, Monograms and Shiny Crystals are the main focus for this New Capsule Collection for him and her.</p>
-          <ul class="promo__buttons">
-            <li class="promo__item">
-              <a class="promo__button button" href="#">Men</a>
-            </li>
-            <li class="promo__item">
-              <a class="promo__button button" href="#">Women</a>
-            </li>
-          </ul>
+          <div class="promo__text-container">
+            <h3 class="promo__header">Teddy Bear<span class="trade-mark">TM</span> capsule</h3>
+            <p class="promo__text">Teddy bears, Monograms and Shiny Crystals are the main focus for this New Capsule Collection for him and her.</p>
+            <ul class="promo__buttons">
+              <li class="promo__item">
+                <a class="promo__button button" href="#">Men</a>
+              </li>
+              <li class="promo__item">
+                <a class="promo__button button" href="#">Women</a>
+              </li>
+            </ul>
+          </div>
         </article>
 
         <div class="teddy-bear__collections collections">
@@ -152,34 +154,60 @@
               <h3 class="collection__header">
                 Pre-fall 2020<br><span class="collection__header-name">Teddy Bear Collection</span>
               </h3>
-              <div class="collection__poster">
-                <img class="collection__image" src="/img/" alt="Teddy bear men">
-                <ul class="collection__stuff-list stuff-list">
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear jackets">
-                    <p class="stuff-item__description">Jackets</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear hoodies">
-                    <p class="stuff-item__description">Hoodies</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear shoes">
-                    <p class="stuff-item__description">Shoes</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                </ul>
+              <div class="collection__set">
+                <div class="collection__stuff stuff">
+                  <img class="stuff__image" src="img/PP_Monogram-15-019.jpg" alt="Teddy bear men" width="1149" height="1641">
+                  <ul class="stuff__list stuff__list--men">
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container-type1 stuff-item__container--jackets">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20C-MLB1298-PLE010N_13_m.jpg" alt="Teddy bear jackets" width="279" height="355">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">Jackets</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container--type2">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20C-MJB2068-PJO002N_01_sf.jpg" alt="Teddy bear hoodies" width="279" height="355">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">Hoodies</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container--type1">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20S-MSC2869-PXV001N_0113_s34f.jpg" alt="Teddy bear shoes" width="279" height="355">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">Shoes</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 <div class="collection__hot-stuff hot-stuff">
                   <div class="hot-stuff__product">
                     <h4 class="hot-stuff__header">
-                      Spring summer 2020<br><span>Hot Stuff</span>
+                      Spring summer 2020<br><span class="hot-stuff__header-fragment">Hot Stuff</span>
                     </h4>
-                    <img class="hot-stuff__product-picture" src="/img/" alt="Teddy bear cap">
+                    <img class="hot-stuff__product-picture" src="img/F20A-UAC0037-PTE003N_02_m.jpg" alt="Teddy bear cap">
                   </div>
                   <div class="hot-stuff__photo-container">
-                    <img class="hot-stuff__photo" src="/img/" alt="Teddy bear cap on men">
+                    <img class="hot-stuff__photo" src="img/PP_Monogram-11-065.png" alt="Teddy bear cap on men">
                   </div>
                 </div>
               </div>
@@ -188,34 +216,60 @@
               <h3 class="collection__header">
                 Pre-fall 2020<br><span class="collection__header-name">Teddy Bear Collection</span>
               </h3>
-              <div class="collection__poster">
-                <img class="collection__image" src="/img/" alt="Teddy bear men">
-                <ul class="collection__stuff-list stuff-list">
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear jackets">
-                    <p class="stuff-item__description">Jackets</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear denim">
-                    <p class="stuff-item__description">Denim</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                  <li class="stuff-list__item stuff-item">
-                    <img class="stuff-item__image" src="/img/" alt="Teddy bear shoes">
-                    <p class="stuff-item__description">High Heels</p>
-                    <a class="stuff-item__link" href="">Shop now</a>
-                  </li>
-                </ul>
-                <div class="collection__hot-stuff hot-stuff">
+              <div class="collection__set">
+                <div class="collection__stuff stuff">
+                  <img class="stuff__image" src="img/PP_Monogram-28-024.jpg" alt="Teddy bear women" width="1149" height="1641">
+                  <ul class="stuff__list stuff__list--women">
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container--type1">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20C-WDB0400-PDE004N_07am_m.jpg" alt="Teddy bear jackets" width="273" height="348">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">Jackets</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container--type2">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20C-WDT1388-PDE004N_07am_m.jpg" alt="Teddy bear denim" width="270" height="344">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">Denim</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="stuff__item stuff-item">
+                      <a class="stuff-item__link" href="#">
+                        <div class="stuff-item__container stuff-item__container--type1">
+                          <div class="stuff-item__image-container">
+                            <img class="stuff-item__image" src="img/F20S-WSD0364-PLE077N_13_m.jpg" alt="Teddy bear high heel" width="276" height="351">
+                          </div>
+                          <div class="stuff-item__text-container">
+                            <p class="stuff-item__description">High Heels</p>
+                            <p class="stuff-item__text">Shop now</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="collection__hot-stuff hot-stuff hot-stuff--women">
                   <div class="hot-stuff__product">
                     <h4 class="hot-stuff__header">
-                      Spring summer 2020<br><span>Hot Stuff</span>
+                      Spring summer 2020<br><span class="hot-stuff__header-fragment">Hot Stuff</span>
                     </h4>
-                    <img class="hot-stuff__product-picture" src="/img/" alt="Teddy bear bag">
+                    <img class="hot-stuff__product-picture" src="img/S20A-WBA1105-PLE009N_70_m.jpg" alt="Teddy bear bag">
                   </div>
                   <div class="hot-stuff__photo-container">
-                    <img class="hot-stuff__photo" src="/img/" alt="Teddy bear bag on women">
+                    <img class="hot-stuff__photo" src="img/S20A-WBA1105-PLE009N_70_d1.png" alt="Teddy bear bag skull">
                   </div>
                 </div>
               </div>
@@ -226,91 +280,113 @@
 
       <article class="site-main__promo">
         <div class="promo__image-container">
-          <img class="promo__image" src="/img/" alt="The skeleton 3d printed boots">
+          <img class="promo__image" src="img/skeleton_poster_cn.jpg" alt="The skeleton 3d printed boots" width="1920" height="800">
         </div>
-        <h2 class="promo__header">The $keleton&#8482;</h2>
-        <p class="promo__text">PHILIPP PLEIN combines the traditional world of artisan shoe-making together with the futuristic technology of 3D printing.<br>
-        THE $KELETON&#8482; collection is an homage to the advanced and futuristic world of 3D printing.</p>
-        <a class="promo__button button" href="#">Shop now</a>
+        <div class="promo__text-container promo__text-container--skeleton">
+          <h2 class="promo__header">The $keleton<span class="trade-mark">TM</span></h2>
+          <p class="promo__text promo__text--skeleton">PHILIPP PLEIN combines the traditional world of artisan shoe-making together with the futuristic technology of 3D printing.<br>
+          THE $KELETON&#153; collection is an homage to the advanced and futuristic world of 3D printing.</p>
+          <div class="promo__button-single">
+            <a class="promo__button button" href="#">Shop now</a>
+          </div>
+        </div>
       </article>
 
       <div class="site-main__slider slider">
-        <img class="slider__image" src="/img/" alt="The skeleton t-shirt">
+        <img class="slider__image" src="img/slider.jpg" alt="The skeleton t-shirt" width="1920" height="904">
       </div>
 
       <article class="site-main__promo promo">
         <div class="promo__image-container">
-          <img class="promo__image" src="/img/" alt="Philipp Plein No limits image">
+          <img class="promo__image" src="img/banner_hp_travelsize_d.jpg" alt="Philipp Plein No limits image" width="1920" height="800">
         </div>
-        <h2 class="promo__header">No limit$&#8482; travel size</h2>
-        <p class="promo__text">2 pack 50 ml now available!</p>
-        <ul class="promo__buttons">
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Shop 2pack 50ml</a>
-          </li>
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Shop 90ml</a>
-          </li>
-        </ul>
+        <div class="promo__text-container">
+          <h2 class="promo__header">No limit$<span class="trade-mark">TM</span> travel size</h2>
+          <p class="promo__text">2 pack 50 ml now available!</p>
+          <ul class="promo__buttons">
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Shop 2pack 50ml</a>
+            </li>
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Shop 90ml</a>
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article class="site-main__promo promo">
         <div class="promo__image" >
-          <img class="promo__image" src="/img/" alt="King Plein&#8482; capsule">
+          <img class="promo__image" src="img/10.jpg" alt="King Plein capsule" width="1920" height="800">
         </div>
-        <h2 class="promo__header">King Plein&#8482; capsule</h2>
-        <p class="promo__text">Welcome to the Philipp Plein Jungle. Discover the New King Plein&#8482; Drop.</p>
-        <ul class="promo__buttons">
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Men</a>
-          </li>
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Women</a>
-          </li>
-        </ul>
+        <div class="promo__text-container">
+          <h2 class="promo__header">King Plein<span class="trade-mark">TM</span> capsule</h2>
+          <p class="promo__text">Welcome to the Philipp Plein Jungle. Discover the New King Plein<span class="trade-mark">TM</span> Drop.</p>
+          <ul class="promo__buttons">
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Men</a>
+            </li>
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Women</a>
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article class="site-main__promo promo">
         <div class="promo__image" >
-          <img class="promo__image" src="/img/" alt="Rainbow collection">
+          <img class="promo__image" src="img/UCOP_video_desktop.jpg" alt="Rainbow collection" width="1920" height="800">
         </div>
-        <h2 class="promo__header">Rainbow collection</h2>
-        <p class="promo__text">Discover all the shades of the New Philipp Plein Collection!</p>
-        <a class="promo__button button" href="#">Shop now</a>
+        <div class="promo__text-container">
+          <h2 class="promo__header">Rainbow collection</h2>
+          <p class="promo__text">Discover all the shades of the New Philipp Plein Collection!</p>
+          <div class="promo__button-single">
+            <a class="promo__button button" href="#">Shop now</a>
+          </div>
+        </div>
       </article>
 
       <article class="site-main__promo promo">
         <div class="promo__image" >
-          <img class="promo__image" src="/img/" alt="God$illa sneaker">
+          <img class="promo__image" src="img/A20S-MSC3046-PLE075N_50_ses.jpg" alt="God$illa sneaker" width="1920" height="800">
         </div>
-        <h2 class="promo__header">God$illa&#8482; sneaker</h2>
-        <p class="promo__text">Discover the God$illa Sneakers now back in stock! For Him and Her.</p>
-        <a class="promo__button button" href="#">Shop now</a>
+        <div class="promo__text-container">
+          <h2 class="promo__header">God$illa<span class="trade-mark">TM</span> sneaker</h2>
+          <p class="promo__text">Discover the God$illa Sneakers now back in stock! For Him and Her.</p>
+          <div class="promo__button-single">
+            <a class="promo__button button" href="#">Shop now</a>
+          </div>
+        </div>
       </article>
 
       <article class="site-main__promo promo">
         <div class="promo__image" >
-          <img class="promo__image" src="/img/" alt="God$illa sneaker">
+          <img class="promo__image" src="img/masks_banner_hp.jpg" alt="Philipp Plein Face Masks Collection" width="1920" height="800">
         </div>
-        <h2 class="promo__header">Philipp Plein&#8482; masks</h2>
-        <p class="promo__text">Discover the brand new Philipp Plein&#8482; Face Masks Collection!</p>
-        <a class="promo__button button" href="#">Shop now</a>
+        <div class="promo__text-container">
+          <h2 class="promo__header">Philipp Plein<span class="trade-mark">TM</span> masks</h2>
+          <p class="promo__text">Discover the brand new Philipp Plein&#153; Face Masks Collection!</p>
+          <div class="promo__button-single">
+            <a class="promo__button button" href="#">Shop now</a>
+          </div>
+        </div>
       </article>
 
       <article class="site-main__promo promo">
         <div class="promo__image" >
-          <img class="promo__image" src="/img/" alt="God$illa sneaker">
+          <img class="promo__image" src="img/junior_back.jpg" alt="God$illa sneaker" width="1920" height="800">
         </div>
-        <h2 class="promo__header">Plein Junior&#8482; new collection</h2>
-        <p class="promo__text">Enter the Philipp Plein Junior World. Embrance the Fashion also for you Kids!</p>
-        <ul class="promo__buttons">
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Shop girls</a>
-          </li>
-          <li class="promo__item">
-            <a class="promo__button button" href="#">Shop boys</a>
-          </li>
-        </ul>
+        <div class="promo__text-container">
+          <h2 class="promo__header">Plein Junior<span class="trade-mark">TM</span> new collection</h2>
+          <p class="promo__text">Enter the Philipp Plein Junior World. Embrance the Fashion also for you Kids!</p>
+          <ul class="promo__buttons">
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Shop girls</a>
+            </li>
+            <li class="promo__item">
+              <a class="promo__button button" href="#">Shop boys</a>
+            </li>
+          </ul>
+        </div>
       </article>
 
     </main>
@@ -415,12 +491,12 @@
       <div class="footer__brands brands">
         <ul class="brands__list">
           <li class="brands__item">
-            <img class="brands__image" src="/img/" alt="Philipp Plein Junior">
+            <img class="brands__image" src="img/icon-kids.png" alt="Philipp Plein Junior" width="52" height="48">
             <h2>Philipp Plein Junior</h2>
             <p>For kids only</p>
           </li>
           <li class="brands__item">
-            <img class="brands__image" src="/img/" alt="Philipp Plein Outlet">
+            <img class="brands__image" src="img/icon-outlet.png" alt="Philipp Plein Outlet" width="52" height="48">
             <h2>Philipp Plein Outlet</h2>
             <p>Discounted original and certified Philipp Plein products</p>
           </li>
