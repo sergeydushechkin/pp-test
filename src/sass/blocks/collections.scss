@@ -1,0 +1,18 @@
+.collections {
+  padding-top: 40px;
+  padding-bottom: 74px;
+  background-color: #f7f7f7;
+}
+
+.collections__list {
+  @include list_none;
+}
+
+.collections__collection {
+  margin-bottom: 100px;
+
+  &:nth-child(2) {
+    margin-bottom: 0;
+  }
+}
+

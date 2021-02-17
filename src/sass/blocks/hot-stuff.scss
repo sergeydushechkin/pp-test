@@ -1,0 +1,43 @@
+.hot-stuff {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1339px;
+  height: 656px;
+
+  margin: 0 auto;
+  padding-top: 27px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  background-image: url("../img/hot-stuff-polygon.png");
+  background-repeat: no-repeat;
+
+}
+
+.hot-stuff--women {
+  flex-direction: row-reverse;
+
+  .hot-stuff__product {
+    padding-top: 6px;
+    padding-right: 215px;
+    padding-left: 0;
+  }
+}
+
+.hot-stuff__product {
+  padding-top: 6px;
+  padding-left: 212px;
+}
+
+.hot-stuff__header {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.hot-stuff__header-fragment {
+  font-size: 66px;
+  text-transform: none;
+  font-weight: normal;
+}

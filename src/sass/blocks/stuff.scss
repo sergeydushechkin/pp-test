@@ -1,0 +1,50 @@
+.stuff {
+  position: relative;
+}
+
+.stuff__list {
+  @include list_none;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+.stuff__item {
+  position: absolute;
+}
+
+.stuff__list--men {
+  & .stuff__item:nth-child(1) {
+    top: 208px;
+    left: 1263px;
+  }
+
+  & .stuff__item:nth-child(2) {
+    top: 588px;
+    left: 73px;
+  }
+
+  & .stuff__item:nth-child(3) {
+    top: 1017px;
+    left: 1263px;
+  }
+}
+
+.stuff__list--women {
+  & .stuff__item:nth-child(1) {
+    top: 208px;
+    left: 73px;
+  }
+
+  & .stuff__item:nth-child(2) {
+    top: 588px;
+    left: 1263px;
+  }
+
+  & .stuff__item:nth-child(3) {
+    top: 1017px;
+    left: 73px;
+  }
+}

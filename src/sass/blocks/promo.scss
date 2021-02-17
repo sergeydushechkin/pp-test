@@ -1,0 +1,56 @@
+.promo__image {
+  width: 100%;
+}
+
+.promo__text-container {
+  padding-top: 13px;
+  padding-bottom: 65px;
+
+  &--skeleton {
+    padding-bottom: 67px;
+  }
+}
+
+.promo__header {
+  margin: 0;
+  margin-bottom: 8px;
+
+  font-size: 49px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.75px;
+  word-spacing: 5px;
+}
+
+.promo__text {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 17px;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 1.25px;
+
+  &--skeleton {
+    margin-bottom: 22px;
+  }
+}
+
+.promo__buttons {
+  @include list_none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  width: 640px;
+  margin: 0 auto;
+}
+
+.promo__button-single {
+  text-align: center;
+}
+
+.promo__button {
+  width: 282px;
+}

@@ -1,9 +1,18 @@
 @font-face {
   font-family: "Aktiv Grotesk";
   src: local("Aktiv Grotesk"),
-    url("../fonts/AktivGrotesk.woff2") format("woff2"),
-    url("../fonts/AktivGrotesk.woff") format("woff");
+    url("../fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("../fonts/AktivGroteskCorp-Regular.woff") format("woff");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: local("Aktiv Grotesk Bold"),
+    url("../fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("../fonts/AktivGroteskCorp-Bold.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
 }
 
