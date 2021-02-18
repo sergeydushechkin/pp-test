@@ -1,0 +1,14 @@
+.footer-info {
+  padding: 60px 183px;
+  padding-bottom: 62px;
+  padding-right: 191px;
+
+  border-bottom: 1px solid #000000;
+}
+
+.footer-info__list {
+  @include list_none;
+
+  display: flex;
+  justify-content: space-between;
+}

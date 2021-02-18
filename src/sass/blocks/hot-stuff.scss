@@ -7,27 +7,26 @@
 
   margin: 0 auto;
   padding-top: 27px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
 
   background-image: url("../img/hot-stuff-polygon.png");
   background-repeat: no-repeat;
-
 }
 
 .hot-stuff--women {
   flex-direction: row-reverse;
 
-  .hot-stuff__product {
+  & .hot-stuff__product {
     padding-top: 6px;
-    padding-right: 215px;
+    padding-right: 216px;
     padding-left: 0;
   }
 }
 
 .hot-stuff__product {
   padding-top: 6px;
-  padding-left: 212px;
+  padding-left: 207px;
 }
 
 .hot-stuff__header {

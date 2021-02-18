@@ -1,0 +1,28 @@
+.info {
+}
+
+.info__header {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.info__list {
+  @include list_none;
+
+  width: 200px;
+}
+
+.info__item {
+  margin-bottom: 12px;
+}
+
+.info__link {
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.8px;
+  word-spacing: 2px;
+  text-decoration: none;
+}

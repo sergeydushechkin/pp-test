@@ -1,13 +1,37 @@
+.promo__image-container {
+  font-size: 0;
+}
+
 .promo__image {
   width: 100%;
 }
 
 .promo__text-container {
-  padding-top: 13px;
+  padding-top: 18px;
   padding-bottom: 65px;
 
   &--skeleton {
     padding-bottom: 67px;
+  }
+
+  &--no-limits {
+    padding-top: 16px;
+    padding-bottom: 68px;
+  }
+
+  &--king {
+    padding-top: 12px;
+    padding-bottom: 91px;
+  }
+
+  &--rainbow {
+    padding-top: 13px;
+    padding-bottom: 102px;
+  }
+
+  &--type1 {
+    padding-top: 13px;
+    padding-bottom: 73px;
   }
 }
 
@@ -53,4 +77,6 @@
 
 .promo__button {
   width: 282px;
+
+  letter-spacing: 1.5px;
 }
