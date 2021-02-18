@@ -3,6 +3,11 @@
   justify-content: space-between;
 
   padding: 22px 0;
+
+  &--large {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 21px;
+  }
 }
 
 .menu__left {
@@ -12,10 +17,20 @@
   font-size: 12px;
 
   padding-left: 47px;
+
+  &--large {
+    padding-left: 50px
+  }
 }
 
 .menu__center {
   width: 650px;
+
+  &--large {
+    width: 750px;
+
+    padding-top: 5px;
+  }
 }
 
 .menu__right {
@@ -30,9 +45,17 @@
 
 .menu__logo {
   margin-bottom: 15px;
+
+  &--large {
+    margin-bottom: 18px;
+  }
 }
 
 .menu__services {
   margin: 0;
   margin-bottom: 27px;
+
+  &--large {
+    margin-bottom: 27px;
+  }
 }

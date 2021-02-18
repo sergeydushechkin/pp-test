@@ -1,0 +1,25 @@
+.video {
+  display: flex;
+}
+
+.video__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.video__header {
+  margin: 0;
+  font-size: 51px;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+}
+
+.video__text {
+  width: 430px;
+
+  text-align: center;
+  text-transform: none;
+}

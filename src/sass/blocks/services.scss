@@ -9,6 +9,11 @@
   margin-right: 50px;
 
   line-height: 9px;
+
+  &--large {
+    margin-right: 54px;
+    line-height: 19px;
+  }
 }
 
 .services__link {
@@ -52,5 +57,14 @@
     height: 6px;
 
     background-image: url("./img/icon-arrow.png");
+  }
+
+  &--signin-large {
+    font-size: 15px;
+  }
+
+  &--signin-large::after {
+    top: 7px;
+    left: 66px;
   }
 }

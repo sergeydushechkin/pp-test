@@ -12,10 +12,19 @@
 
   font-family: "Aktiv Grotesk", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 20px;
   color: #ffffff;
   letter-spacing: 1.2px;
 
   text-decoration: none;
+
+  &--large {
+    padding-right: 41px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1.4px;
+  }
 }
 
 .offer__close-button {
@@ -28,4 +37,9 @@
   color: #ffffff;
 
   cursor: pointer;
+
+  &--large {
+    top: 11px;
+    right: 34px
+  }
 }

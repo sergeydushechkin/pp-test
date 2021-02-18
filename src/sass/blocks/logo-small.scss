@@ -4,6 +4,11 @@
   overflow: hidden;
   width: 81px;
   height: 71px;
+
+  &--large {
+    width: 124px;
+    height: 87px;
+  }
 }
 
 .logo-small__image {
@@ -11,4 +16,8 @@
 
   left: -12px;
   top: -17px;
+
+  &--large {
+    width: 100%;
+  }
 }

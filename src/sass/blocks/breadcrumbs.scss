@@ -1,0 +1,36 @@
+.breadcrumbs {
+  @include list_none;
+
+  display: flex;
+
+  padding-left: 21px;
+
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.breadcrumbs__item {
+  margin-right: 24px;
+}
+
+.breadcrumbs__link {
+  position: relative;
+
+  color: #000000;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    top: 4px;
+    right: -15px;
+
+    width: 8px;
+    height: 7px;
+
+    background-image: url("../img/icon-right.png");
+    background-repeat: no-repeat;
+  }
+}

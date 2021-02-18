@@ -6,6 +6,11 @@
 
 .utils__item {
   margin-right: 19px;
+
+  &--large {
+    margin-right: 27px;
+    line-height: 25px;
+  }
 }
 
 .utils__link {

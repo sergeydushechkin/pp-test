@@ -5,10 +5,18 @@
   padding: 0 35px;
 
   list-style: none;
+
+  &--large {
+    padding: 0 11px;
+  }
 }
 
 .properties__item {
   margin-right: 60px;
+
+  &--large {
+    margin-right: 53px;
+  }
 }
 
 .properties__link {
@@ -22,7 +30,12 @@
 
   letter-spacing: 1px;
 
-  &--ship-to::after {
+  &--large {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+
+  &--change::after {
     content: "";
 
     position: absolute;
@@ -34,5 +47,14 @@
     height: 6px;
 
     background-image: url("./img/icon-arrow.png");
+  }
+
+  &--large::after {
+    top: 6px;
+    left: 173px;
+  }
+
+  &--change-lang::after {
+    left: 72px;
   }
 }

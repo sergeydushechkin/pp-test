@@ -1,0 +1,36 @@
+.filters {
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+
+  padding-right: 56px;
+
+  font-size: 15px;
+}
+
+.filters__item {
+  margin-right: 38px;
+}
+
+.filters__link {
+  position: relative;
+
+  color: #000000;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    top: 6px;
+    right: -15px;
+
+    width: 10px;
+    height: 6px;
+
+    background-image: url("../img/icon-arrow.png");
+    background-repeat: no-repeat;
+  }
+}

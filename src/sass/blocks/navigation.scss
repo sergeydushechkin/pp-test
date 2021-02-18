@@ -5,9 +5,18 @@
   @include list_none;
 
   padding-left: 9px;
+  padding-right: 9px;
 
   font-size: 12px;
-  letter-spacing: 2px;
+  letter-spacing: 3.5px;
+
+  &--large {
+    padding-left: 6px;
+    padding-right: 6px;
+
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
 }
 
 .navigation__link {
