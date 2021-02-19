@@ -1,13 +1,20 @@
 .video {
   display: flex;
+
+  padding-top: 22px;
+  padding-bottom: 102px;
+  padding-left: 3px;
+  border-bottom: 1px solid #000000;
 }
 
 .video__description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-grow: 1;
+
+  padding-top: 198px;
 }
 
 .video__header {
@@ -15,11 +22,19 @@
   font-size: 51px;
   word-spacing: 3px;
   letter-spacing: 1.5px;
+  padding-left: 7.4%;
+  text-align: center;
 }
 
 .video__text {
-  width: 430px;
-
+  width: 85%;
+  font-size: 22px;
+  letter-spacing: 0.4px;
+  word-spacing: -2px;
+  line-height: 29px;
   text-align: center;
   text-transform: none;
+
+  padding-left: 17%;
+  padding-top: 2px;
 }

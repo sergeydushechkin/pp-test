@@ -1,0 +1,24 @@
+.cards {
+  padding-top: 91px;
+  padding-bottom: 20px;
+}
+
+.cards__header {
+  margin: 0;
+  margin-bottom: 41px;
+  font-size: 31px;
+
+  font-weight: normal;
+  letter-spacing: 0.6px;
+  word-spacing: 1px;
+}
+
+.cards__list {
+  @include list_none;
+
+  display: flex;
+}
+
+.cards__item {
+  margin-right: 47px;
+}

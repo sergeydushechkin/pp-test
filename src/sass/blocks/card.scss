@@ -1,0 +1,30 @@
+.card {
+
+}
+
+.card__image-container {
+  position: relative;
+
+  width: 396px;
+  height: 506px;
+
+  background-color: #f7f7f7;
+}
+
+.card__link {
+  position: absolute;
+
+
+  color: #000000;
+  font-size: 0;
+  text-decoration: none;
+
+  top: 27px;
+  right: 31px;
+
+  width: 24px;
+  height: 23px;
+
+  background-image: url("../img/icon-star.png");
+  background-repeat: no-repeat;
+}

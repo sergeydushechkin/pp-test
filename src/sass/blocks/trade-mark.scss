@@ -3,4 +3,10 @@
   font-weight: bold;
   line-height: 38px;
   vertical-align: top;
+
+  &--text {
+    font-size: 0.5em;
+    line-height: 20px;
+    font-weight: normal;
+  }
 }
