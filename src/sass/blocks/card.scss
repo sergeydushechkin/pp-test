@@ -1,14 +1,13 @@
-.card {
-
-}
-
 .card__image-container {
   position: relative;
 
-  width: 396px;
-  height: 506px;
+  width: 100%;
 
   background-color: #f7f7f7;
+}
+
+.card__image {
+  width: 100%;
 }
 
 .card__link {
@@ -27,4 +26,24 @@
 
   background-image: url("../img/icon-star.png");
   background-repeat: no-repeat;
+}
+
+.card__colors {
+  margin-bottom: 48px;
+}
+
+.card__name {
+  margin-bottom: 8px;
+
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.card__price {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card__digits {
+  letter-spacing: 0.8px;
 }

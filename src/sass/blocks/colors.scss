@@ -1,0 +1,14 @@
+.colors {
+  margin-top: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 5px;
+
+  list-style: none;
+}
+
+.colors__item {
+  margin-right: 10px;
+}

@@ -1,6 +1,13 @@
 .cards {
-  padding-top: 91px;
-  padding-bottom: 20px;
+  padding-top: 89px;
+  padding-bottom: 92px;
+
+  border-top: 1px solid #000000;
+
+  &:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 32px;
+  }
 }
 
 .cards__header {
@@ -17,8 +24,23 @@
   @include list_none;
 
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 100%;
 }
 
 .cards__item {
-  margin-right: 47px;
+  width: 23.05%;
+
+  margin-right: 2.6%;
+  margin-bottom: 47px;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  &:last-child {
+    margin-right: auto;
+  }
 }
