@@ -1,8 +1,16 @@
 .stuff {
+  display: flex;
+  justify-content: center;
+
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 1149px;
+
+  width: 60%;
+}
+
+.stuff__image {
+  width: 100%;
 }
 
 .stuff__list {
@@ -12,42 +20,47 @@
 
   top: 0;
   left: 0;
+
+  width: 100%;
+  height: 100%;
 }
 
 .stuff__item {
   position: absolute;
+
+  width: 49.8%;
 }
 
 .stuff__list--men {
   & .stuff__item:nth-child(1) {
-    top: 208px;
-    left: 884px;
+    top: 12.7%;
+    left: 76.9%;
   }
 
   & .stuff__item:nth-child(2) {
-    top: 588px;
-    left: -306px;
+    top: 35.7%;
+    left: -26.4%;
   }
 
   & .stuff__item:nth-child(3) {
-    top: 1017px;
-    left: 884px;
+    top: 61.8%;
+    left: 76.9%;
   }
 }
 
 .stuff__list--women {
   & .stuff__item:nth-child(1) {
-    top: 208px;
-    left: -305px;
+    top: 12.7%;
+    left: -26.4%;
   }
 
   & .stuff__item:nth-child(2) {
-    top: 588px;
-    left: 885px;
+    top: 35.7%;
+    left: 76.9%;
   }
 
   & .stuff__item:nth-child(3) {
-    top: 1017px;
-    left: -305px;
+    top: 61.8%;
+    left: -26.4%;
   }
 }

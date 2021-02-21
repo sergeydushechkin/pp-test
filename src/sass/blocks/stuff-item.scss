@@ -1,5 +1,5 @@
-.stuff-item {
-
+.stuff-item__image {
+  width: 100%;
 }
 
 .stuff-item__link {
@@ -8,36 +8,23 @@
 }
 
 .stuff-item__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  position: relative;
+}
 
-  width: 573px;
-  height: 496px;
+.stuff-item__text-container {
+  position: absolute;
+  left: 0;
+  bottom: 9%;
 
-  padding-top: 21px;
-  padding-bottom: 37px;
+  width: 100%;
 
-  background-repeat: no-repeat;
-  background-image: url("../img/polygon.png");
-
-  &--jackets {
-    padding-top: 32px;
-  }
-
-  &--type1 {
-    padding-bottom: 37px;
-  }
-
-  &--type2 {
-    padding-bottom: 42px;
-  }
+  text-align: center;
 }
 
 .stuff-item__description {
   margin: 0;
   margin-bottom: 16px;
-  font-size: 28px;
+  font-size: 1.8em;
   font-weight: normal;
   line-height: 20px;
   text-transform: none;
@@ -45,7 +32,7 @@
 
 .stuff-item__text {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.32em;
   font-weight: bold;
   line-height: 20px;
 }
