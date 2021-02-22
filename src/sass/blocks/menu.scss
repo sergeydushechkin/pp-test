@@ -12,14 +12,14 @@
 
 .menu__left {
   display: flex;
-  width: 570px;
+  width: 29.7%;
 
   font-size: 12px;
 
-  padding-left: 47px;
+  padding-left: 2.4%;
 
   &--large {
-    padding-left: 50px
+    padding-left: 2.6%;
   }
 }
 
@@ -38,9 +38,9 @@
   flex-direction: column;
   align-items: flex-end;
 
-  width: 570px;
+  width: 29.7%;
 
-  padding-right: 18px;
+  padding-right: 0.9%;
 }
 
 .menu__logo {
@@ -59,3 +59,5 @@
     margin-bottom: 27px;
   }
 }
+
+

@@ -1,5 +1,6 @@
 .properties {
   display: flex;
+  flex-wrap: wrap;
 
   margin: 0;
   padding: 0 35px;
@@ -17,6 +18,10 @@
   &--large {
     margin-right: 53px;
   }
+
+  &:last-child {
+    margin-right: 0;
+}
 }
 
 .properties__link {
@@ -41,7 +46,7 @@
     position: absolute;
 
     top: 1px;
-    left: 171px;
+    right: -21px;
 
     width: 10px;
     height: 6px;

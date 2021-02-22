@@ -18,6 +18,9 @@
 
   background-color: #000000;
 
+  transition-duration: 0.5s;
+  transition-property: background-color;
+
   &--sale {
     width: 221px;
     height: 41px;
@@ -26,5 +29,19 @@
     line-height: 21px;
 
     background-color: #ffffff;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+  }
+
+  &--sale:hover,
+  &--sale:focus {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
   }
 }

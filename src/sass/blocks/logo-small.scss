@@ -2,11 +2,11 @@
   position: relative;
 
   overflow: hidden;
-  width: 81px;
+  min-width: 81px;
   height: 71px;
 
   &--large {
-    width: 124px;
+    min-width: 124px;
     height: 87px;
   }
 }

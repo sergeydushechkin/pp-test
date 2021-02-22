@@ -2,41 +2,50 @@
   display: flex;
   justify-content: space-between;
 
-  width: 1339px;
-  height: 656px;
+  width: 69.7%;
 
   margin: 0 auto;
-  padding-top: 27px;
+  padding-top: 1.4%;
+  padding-bottom: 1.2%;
   padding-right: 32px;
   padding-left: 32px;
 
   background-image: url("../img/hot-stuff-polygon.png");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hot-stuff--women {
   flex-direction: row-reverse;
 
   & .hot-stuff__product {
-    padding-top: 6px;
-    padding-right: 216px;
+    padding-top: 0.5%;
+    padding-right: 17%;
     padding-left: 0;
   }
 }
 
 .hot-stuff__product {
-  padding-top: 6px;
-  padding-left: 207px;
+  padding-top: 0.5%;
+  padding-left: 16.25%;
 }
 
 .hot-stuff__header {
   margin: 0;
   margin-bottom: 20px;
-  font-size: 27px;
+  font-size: 1.4vw;
 }
 
 .hot-stuff__header-fragment {
-  font-size: 66px;
+  font-size: 2.5em;
   text-transform: none;
   font-weight: normal;
+}
+
+img.hot-stuff__product-picture {
+  width: 100%;
+}
+
+.hot-stuff__photo {
+  width: 100%;
 }
