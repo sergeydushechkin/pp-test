@@ -45,3 +45,15 @@
     color: #ffffff;
   }
 }
+
+@media (max-width: 768px) {
+  .button {
+    height: 37px;
+    line-height: 17px;
+
+    &--sale {
+      width: 80%;
+      height: 41px;
+    }
+  }
+}

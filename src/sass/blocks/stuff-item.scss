@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.stuff-item__mobile-image {
+  display: none;
+}
+
 .stuff-item__link {
   color: #000000;
   text-decoration: none;
@@ -35,4 +39,39 @@
   font-size: 1.1vw;
   font-weight: bold;
   line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .stuff-item {
+    margin: 0 2%;
+
+    background-color: #ffffff;
+    padding-bottom: 20px;
+  }
+
+  .stuff-item__image-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .stuff-item__image {
+    display: none;
+  }
+
+  .stuff-item__mobile-image {
+    display: block;
+    width: 100%;
+  }
+
+  .stuff-item__text-container {
+    position: static;
+  }
+
+  .stuff-item__description {
+    font-size: 15px;
+  }
+
+  .stuff-item__text {
+    font-size: 14px;
+  }
 }

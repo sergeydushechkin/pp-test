@@ -44,3 +44,25 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .cards {
+    padding-top: 49px;
+    padding-bottom: 11px;
+  }
+
+  .cards__list {
+    flex-direction: column;
+  }
+
+  .cards__item {
+    width: 100%;
+
+    margin-right: 0;
+    margin-bottom: 47px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

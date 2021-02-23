@@ -68,3 +68,9 @@
     left: 66px;
   }
 }
+
+@media (max-width: 1024px) {
+  .services {
+    display: none;
+  }
+}

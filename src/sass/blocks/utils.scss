@@ -48,3 +48,36 @@
     background-image: url("./img/icon-packet.png");
   }
 }
+
+@media (max-width: 1024px) {
+  .utils__cart-count {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .utils {
+    width: 100%;
+    justify-content: space-around;
+
+    padding: 15px 0;
+  }
+
+  .utils__item {
+    width: 25%;
+    margin: 0;
+
+    text-align: center;
+
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+
+    &:first-child {
+      border-left: none;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

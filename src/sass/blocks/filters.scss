@@ -34,3 +34,10 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (max-width: 768px) {
+  .filters {
+    justify-content: center;
+    padding-right: 0;
+  }
+}

@@ -21,7 +21,7 @@
 
   &:last-child {
     margin-right: 0;
-}
+  }
 }
 
 .properties__link {
@@ -61,5 +61,22 @@
 
   &--change-lang::after {
     left: 72px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .properties__item {
+    width: 50%;
+
+    margin-right: 0;
+    padding-left: 20px;
+
+    &:first-child {
+      border-right: 1px solid #000000;
+    }
+  }
+
+  .properties__link--change::after {
+    display: none;
   }
 }

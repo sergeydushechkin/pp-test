@@ -72,3 +72,26 @@
   background-color: #000000;
   border: none;
 }
+
+@media (max-width: 768px) {
+  .subscribe {
+    padding: 54px 20px;
+    padding-bottom: 59px;
+  }
+
+  .subscribe__container {
+    padding-left: 0;
+  }
+
+  .subscribe__input {
+    width: 100%;
+
+    margin-bottom: 20px;
+    padding: 10px 14px;
+  }
+
+  .subscribe__submit {
+    padding: 11px 36px;
+    width: 100%;
+  }
+}

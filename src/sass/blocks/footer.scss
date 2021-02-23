@@ -10,3 +10,15 @@
     border-top: none;
   }
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 5px 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 5px 0;
+  }
+}

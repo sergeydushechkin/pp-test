@@ -28,10 +28,36 @@
 
   display: flex;
   justify-content: center;
-
-  padding-left: 62px;
 }
 
-.sale__link {
+.sale__item {
   margin-right: 60px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sale {
+    padding-bottom: 30;
+  }
+
+  .sale__header {
+    font-size: 110px;
+  }
+
+  .sale__menu {
+    padding-top: 20px;
+  }
+
+  .sale__list {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sale__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }

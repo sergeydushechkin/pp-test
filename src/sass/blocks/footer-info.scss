@@ -1,9 +1,7 @@
 .footer-info {
-  padding: 60px 183px;
+  padding: 60px 10.7%;
   padding-bottom: 62px;
-  padding-right: 191px;
-
-  border-bottom: 1px solid #000000;
+  padding-right: 11.1%;
 
   &--large {
     padding-bottom: 54px;
@@ -15,4 +13,15 @@
 
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .footer-info {
+    padding: 0;
+  }
+
+  .footer-info__list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

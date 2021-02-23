@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preload" href="fonts/AktivGrotesk.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/AktivGrotesk.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Bold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Bold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/CenturyGothic.woff" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/CenturyGothic-Bold.woff" as="font" crossorigin="anonymous">
     <title>Philipp Plein</title>
@@ -41,9 +43,11 @@
             </a>
           </div>
           <nav class="menu__navigation navigation">
+            <div class="navigation__button navigation__button--closed">Open</div>
+            <div class="navigation__container">
             <ul class="navigation__list">
               <li class="navigation__item">
-                <a class="navigation__link" href="#">Sale</a>
+                  <a class="navigation__link navigation__link--selected" href="#">Sale</a>
               </li>
               <li class="navigation__item">
                 <a class="navigation__link" href="#">Fragnance</a>
@@ -64,6 +68,15 @@
                 <a class="navigation__link" href="#">World</a>
               </li>
             </ul>
+              <ul class="navigation__mobile-properties properties">
+                <li class="properties__item">
+                  <a class="properties__link properties__link--change" href="#">Ship to <span class="properties__country">United Kingdom</span></a>
+                </li>
+                <li class="properties__item">
+                  <a class="properties__link" href="#">English</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
         <div class="menu__right">
@@ -161,12 +174,14 @@
               <div class="collection__set">
                 <div class="collection__stuff stuff">
                   <img class="stuff__image" src="img/PP_Monogram-15-019.jpg" alt="Teddy bear men" width="1149">
+                  <div class="stuff__container">
                   <ul class="stuff__list stuff__list--men">
                     <li class="stuff__item stuff-item">
                       <a class="stuff-item__link" href="#">
                         <div class="stuff-item__container stuff-item__container-type1 stuff-item__container--jackets">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/jackets-m.png" alt="Teddy bear jackets" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20C-MLB1298-PLE010N_13_m.jpg" alt="Teddy bear jackets" width="279">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">Jackets</p>
@@ -180,6 +195,7 @@
                         <div class="stuff-item__container">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/hoodies.png" alt="Teddy bear hoodies" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20C-MJB2068-PJO002N_01_sf.jpg" alt="Teddy bear jackets" width="279">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">Hoodies</p>
@@ -193,6 +209,7 @@
                         <div class="stuff-item__container">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/shoes.png" alt="Teddy bear shoes" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20A-UAC0037-PTE003N_02_m.jpg" alt="Teddy bear jackets" width="334">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">Shoes</p>
@@ -203,12 +220,13 @@
                     </li>
                   </ul>
                 </div>
+                </div>
                 <div class="collection__hot-stuff hot-stuff">
                   <div class="hot-stuff__product">
                     <h4 class="hot-stuff__header">
                       Spring summer 2020<br><span class="hot-stuff__header-fragment">Hot Stuff</span>
                     </h4>
-                    <img class="hot-stuff__product-picture" src="img/F20A-UAC0037-PTE003N_02_m.jpg" alt="Teddy bear cap">
+                    <img class="hot-stuff__product-picture" src="img/F20A-UAC0037-PTE003N_02_m.jpg" alt="Teddy bear cap" width="695">
                   </div>
                   <div class="hot-stuff__photo-container">
                     <img class="hot-stuff__photo" src="img/PP_Monogram-11-065.png" alt="Teddy bear cap on men">
@@ -223,12 +241,14 @@
               <div class="collection__set">
                 <div class="collection__stuff stuff">
                   <img class="stuff__image" src="img/PP_Monogram-28-024.jpg" alt="Teddy bear women" width="1149">
+                  <div class="stuff__container">
                   <ul class="stuff__list stuff__list--women">
                     <li class="stuff__item stuff-item">
                       <a class="stuff-item__link" href="#">
                         <div class="stuff-item__container">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/jackets-w.png" alt="Teddy bear jackets" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20C-WDB0400-PDE004N_07am_m.jpg" alt="Teddy bear jackets" width="273">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">Jackets</p>
@@ -242,6 +262,7 @@
                         <div class="stuff-item__container">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/denims.png" alt="Teddy bear denim" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20C-WDT1388-PDE004N_07am_m.jpg" alt="Teddy bear jackets" width="270">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">Denim</p>
@@ -255,6 +276,7 @@
                         <div class="stuff-item__container">
                           <div class="stuff-item__image-container">
                             <img class="stuff-item__image" src="img/high-heels.png" alt="Teddy bear high heel" width="574">
+                              <img class="stuff-item__mobile-image" src="img/F20S-MSC2869-PXV001N_0113_s34f.jpg" alt="Teddy bear jackets" width="279">
                           </div>
                           <div class="stuff-item__text-container">
                             <p class="stuff-item__description">High Heels</p>
@@ -265,12 +287,13 @@
                     </li>
                   </ul>
                 </div>
+                </div>
                 <div class="collection__hot-stuff hot-stuff hot-stuff--women">
                   <div class="hot-stuff__product">
                     <h4 class="hot-stuff__header">
                       Spring summer 2020<br><span class="hot-stuff__header-fragment">Hot Stuff</span>
                     </h4>
-                    <img class="hot-stuff__product-picture" src="img/S20A-WBA1105-PLE009N_70_m.jpg" alt="Teddy bear bag">
+                    <img class="hot-stuff__product-picture" src="img/S20A-WBA1105-PLE009N_70_m.jpg" alt="Teddy bear bag" width="695">
                   </div>
                   <div class="hot-stuff__photo-container">
                     <img class="hot-stuff__photo" src="img/S20A-WBA1105-PLE009N_70_d1.png" alt="Teddy bear bag skull">

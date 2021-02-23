@@ -38,6 +38,7 @@
 .promo__header {
   margin: 0;
   margin-bottom: 8px;
+  padding: 0 20px;
 
   font-size: 49px;
   font-weight: bold;
@@ -49,6 +50,7 @@
 .promo__text {
   margin: 0;
   margin-bottom: 25px;
+  padding: 0 15px;
 
   font-size: 17px;
   text-align: center;
@@ -79,4 +81,44 @@
   width: 282px;
 
   letter-spacing: 1.5px;
+}
+
+@media (max-width: 1024px) {
+  .promo__buttons {
+    justify-content: space-around;
+
+    width: 73%;
+    margin: 0 auto;
+  }
+
+  .promo__button {
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo__header {
+    font-size: 26px;
+  }
+
+  .promo__buttons {
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .promo__item {
+    text-align: center;
+  }
+
+  .promo__button {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .promo__text-container {
+    padding-bottom: 40px;
+  }
 }

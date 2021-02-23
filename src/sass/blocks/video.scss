@@ -46,3 +46,21 @@
   padding-left: 17%;
   padding-top: 2px;
 }
+
+@media (max-width: 768px) {
+  .video {
+    flex-direction: column;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+
+  .video__header {
+    padding: 10px;
+
+    font-size: 41px;
+  }
+
+  .video__text {
+    padding: 10px;
+  }
+}
