@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preload" href="fonts/AktivGrotesk.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/AktivGrotesk.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Bold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/AktivGroteskCorp-Bold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/CenturyGothic.woff" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/CenturyGothic-Bold.woff" as="font" crossorigin="anonymous">
     <title>Philipp Plein</title>
@@ -27,7 +29,7 @@
           </div>
           <ul class="menu__properties properties properties--large">
             <li class="properties__item properties__item--large">
-              <a class="properties__link properties__link--change properties__link--large" href="#">Ship to <span>United states</span></a>
+              <a class="properties__link properties__link--change properties__link--large" href="#">Ship to <span class="properties__country">United states</span></a>
             </li>
             <li class="properties__item properties__item--large">
               <a class="properties__link properties__link--change properties__link--change-lang properties__link--large" href="#">English</a>
@@ -41,29 +43,40 @@
             </a>
           </div>
           <nav class="menu__navigation navigation">
-            <ul class="navigation__list navigation__list--large">
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Sale</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Fragnance</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Women</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Men</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Sport</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Junior</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">World</a>
-              </li>
-            </ul>
+            <div class="navigation__button navigation__button--closed">Open</div>
+            <div class="navigation__container navigation__container--large">
+              <ul class="navigation__list navigation__list--large">
+                <li class="navigation__item">
+                  <a class="navigation__link navigation__link--selected" href="#">Sale</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">Fragnance</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">Women</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">Men</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">Sport</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">Junior</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="#">World</a>
+                </li>
+              </ul>
+              <ul class="navigation__mobile-properties properties">
+                <li class="properties__item">
+                  <a class="properties__link properties__link--change" href="#">Ship to <span class="properties__country">United Kingdom</span></a>
+                </li>
+                <li class="properties__item">
+                  <a class="properties__link" href="#">English</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
         <div class="menu__right">
@@ -371,5 +384,7 @@
 
     </footer>
   </div>
+
+  <script src="bundle.js"></script>
 </body>
 </html>

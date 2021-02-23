@@ -1,0 +1,32 @@
+.controls {
+  @include list_none;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+.controls__item {
+  position: absolute;
+
+  top: 70px;
+
+  &--left {
+    left: -10px;
+  }
+
+  &--right {
+    right: -10px;
+  }
+}
+
+.controls__button {
+  font-size: 30px;
+  font-weight: bold;
+
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+
+  outline: none;
+}
