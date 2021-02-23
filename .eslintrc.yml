@@ -1,17 +1,10 @@
 env:
-  es6: true
   browser: true
   commonjs: true
   jest: true
 
-extends: ['htmlacademy/es6']
+extends: ['htmlacademy/es5']
 
 parserOptions:
-  ecmaFeatures:
-    jsx: true
-  ecmaVersion: 6
+  ecmaVersion: 2015
   sourceType: module
-
-settings:
-  react:
-    version: '16'
