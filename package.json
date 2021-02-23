@@ -8,8 +8,8 @@
     "eslintold": "npm run eslint.js && npm run eslint.ts",
     "eslint": "eslint src/js",
     "test": "npm run eslint",
-    "htmlbuild": "gulp build",
-    "htmlstart": "gulp start"
+    "build": "gulp build",
+    "start": "gulp start"
   },
   "browserslist": [
     "defaults"
