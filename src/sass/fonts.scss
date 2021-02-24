@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Aktiv Grotesk";
   src: local("Aktiv Grotesk"),
-    url("../fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
-    url("../fonts/AktivGroteskCorp-Regular.woff") format("woff");
+    url("fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
   font-family: "Aktiv Grotesk";
   src: local("Aktiv Grotesk Bold"),
-    url("../fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
-    url("../fonts/AktivGroteskCorp-Bold.woff") format("woff");
+    url("fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -20,7 +20,7 @@
   font-family: "Century Gothic";
   src: local("Century Gothic"),
     local("CenturyGothic"),
-    url("../fonts/CenturyGothic.woff") format("woff");
+    url("fonts/CenturyGothic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +28,7 @@
 @font-face {
   font-family: "Century Gothic";
   src: local("Century Gothic Bold"),
-    url("../fonts/CenturyGothic-Bold.woff") format("woff");
+    url("fonts/CenturyGothic-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
